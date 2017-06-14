@@ -9,3 +9,12 @@ let employee = new Employee(
   4711
 );
 console.log(employee.toString());
+
+let admin = new Admin(
+  'John',
+  'Doe',
+  'john.doe@gmail.com',
+  'password'
+);
+let password = admin.getPassword();
+console.log(password); // should print ******
